@@ -1,5 +1,3 @@
-/* file Jonathan5.cpp
-   Programmer -- Jonathan Armstrong
    Oct. 2, 2011
    Calculates your final grade for the class */
 #include <iostream>
