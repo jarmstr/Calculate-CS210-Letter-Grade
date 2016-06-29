@@ -103,16 +103,14 @@ for( int i = 1; i <= NUMPROGRAMS; i++) // Program grade read in loop
      else if (finalGrade <= 50)
      letterGrade = 'F';
 
-
-   
-}
-
-  fout <<  "Number"<< " " << "Letter"<< endl 
+   fout <<  "Number"<< " " << "Letter"<< endl 
           <<  "-----" << "  " << "-----" << endl
           <<    "  "<< setprecision(2) << finalGrade 
           <<   "   "<< letterGrade  << endl;
      fin >> finalExam;   
+}
 
+  
      system("pause");
      return 0;  
 }
